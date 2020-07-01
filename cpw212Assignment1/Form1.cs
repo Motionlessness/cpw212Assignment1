@@ -19,7 +19,8 @@ namespace cpw212Assignment1
 
         private void Clickmebutt_Click(object sender, EventArgs e)
         {
-            MessageBox.Show();
+            MessageBox.Show("I guess I wasn't paying attention and made a form app",
+                "Oops I Did It Again!",MessageBoxButtons.OK);
         }
     }
 }
