@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace cpw212Assignment1
 {
-    public partial class Form1 : Form
+    public partial class Oopsform : Form
     {
-        public Form1()
+        public Oopsform()
         {
             InitializeComponent();
+        }
+
+        private void Clickmebutt_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show();
         }
     }
 }
